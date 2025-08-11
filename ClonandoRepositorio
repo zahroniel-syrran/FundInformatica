@@ -1,0 +1,48 @@
+# Clonado um repositório existente
+
+
+C:\Users\EtecVAV>cd Downloads <enter>
+
+C:\Users\EtecVAV\Downloads>git clone https://github.com/zahroniel-syrran/projetoC.git <enter>
+
+C:\Users\EtecVAV\Downloads>cd projetoC <enter>
+
+C:\Users\EtecVAV\Downloads\projetoC>
+
+
+Após terminar de Editar, apagar ou criar novo documentos e pasta atualize o GitHub:
+
+
+C:\Users\EtecVAV\Downloads\projetoC>git status
+
+C:\Users\EtecVAV\Downloads\projetoC>git add .
+
+C:\Users\EtecVAV\Downloads\projetoC>git commit -m "Escreva o que foi atualizado no projeto. Claro e objetivo."
+
+C:\Users\EtecVAV\Downloads\projetoC>git push -u origin main
+
+
+Outro comandos git:
+
+para saber as versões
+
+git log
+
+
+Comparando o repositório local com o GitHub:
+primeiro faça um commit local.
+
+C:\Users\EtecVAV\Downloads\projetoC>git add .
+
+C:\Users\EtecVAV\Downloads\projetoC>git commit -m "Salva progresso local antes do pull"
+
+C:\Users\EtecVAV\Downloads\projetoC>git fetch origin
+
+C:\Users\EtecVAV\Downloads\projetoC>git diff origin/main
+
+
+
+Atualizando o repositório local com os dados do remoto:
+
+C:\Users\EtecVAV\Downloads\projetoC>git pull origin main
+
