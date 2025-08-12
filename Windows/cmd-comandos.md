@@ -73,8 +73,10 @@ C:\Users\EtecVAV>DIR <enter>
   <DIR> -> indica que é um Diretório(termo antigo) ou Pasta(termo atual). 
   Pictures -> nome da pasta.
 ---
-13/02/2025  17:51               610 p1.por 
-  OBS: note que não aparece <DIR>, isto significa que é um arquivo (termo antigo) ou Documento(Termo atual). O documento pode ser uma foto, um vídeo, ... 
+13/02/2025  17:51               610 p1.por
+    
+OBS: note que não aparece <DIR>, isto significa que é um arquivo (termo antigo) ou Documento(Termo atual). O documento pode ser uma foto, um vídeo, ...
+
 610 -> é o tamanho do arquivo, ou seja, quanto de espaço ocupa na undiade de armazenamento em Bytes.
 
 ---
