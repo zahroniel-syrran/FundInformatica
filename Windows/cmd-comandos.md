@@ -1,42 +1,47 @@
-# Comandos básicos do CMD (prompt de comandos do Windows)
-digite na pesquisa: CMD e selecione CMD.EXE
-uma janela de comandos será exibida.
+# Comandos básicos do CMD (Prompt de Comandos do Windows)
+
+Digite na pesquisa: **CMD** e selecione **CMD.EXE**  
+Uma janela de comandos será exibida.
+
 ---
-  
+
+**Exemplo inicial:**
+```
 Microsoft Windows [versão 10.0.22631.5472]
 (c) Microsoft Corporation. Todos os direitos reservados.
 
 C:\Users\EtecVAV>|
+```
 
-Onde: 
-  
-C: -> repesenta a undiade de armazenamento que está sendo usada, no caso o HD ou SSD.
-
- `\Users -> é o local onde ficam as pastas de cada usuário cadastrado no Windows.`
- 
- `\EtecVAV -> é a pasta do usuário logado.`
- 
- `> -> separador`
- 
- `| -> cursor intermitente. Indica que está aguardandon comando.` 
-
+### Onde:
+- `C:` → representa a unidade de armazenamento que está sendo usada, no caso o **HD ou SSD**.
+- `\Users` → é o local onde ficam as pastas de cada usuário cadastrado no Windows.
+- `\EtecVAV` → é a pasta do usuário logado.
+- `>` → separador.
+- `|` → cursor intermitente, indica que está aguardando comando.
 
 ---
+
+## Ajuda sobre comandos
 Para obter informações sobre os comandos, digite:
 
-C:\Users\EtecVAV\>help <enter> 
-`<enter> -> significa que você deve pressionar RETURN ou ENTER para enviar o comando.`
+```
+C:\Users\EtecVAV>help <enter>
+```
+> `<enter>` significa que você deve pressionar **RETURN** ou **ENTER** para enviar o comando.
 
-ou um comando especifico:
+Ou para um comando específico:
+```
+C:\Users\EtecVAV>help dir <enter>
+```
+Será exibida a ajuda sobre o comando escolhido.
 
-C:\Users\EtecVAV\>help dir \<enter\> 
-Será exibido as informações sobre este comando.
+---
 
---
-  
-DIR -> exibe os aquivos e pastas gravados
+## Comando DIR
+O comando `DIR` exibe os arquivos e pastas gravados.
 
-Exemplos:
+**Exemplo:**
 ```
 C:\Users\EtecVAV>DIR <enter>
  O volume na unidade C não tem nome.
@@ -64,68 +69,50 @@ C:\Users\EtecVAV>DIR <enter>
                1 arquivo(s)            610 bytes
               14 pasta(s)   116.717.400.064 bytes disponíveis
 ```
-Onde:
 
-C:\Users\EtecVAV>DIR \<enter\>
-  
-\<enter\> -\> significa que você deve pressionar RETURN ou ENTER para enviar o comando.
-
-o DIR pode ser em minusculo, pois o Windows não é case sensitive (não distingue maiusculo de minusculo.
----
-08/12/2023  09:27    \<DIR\>          Pictures
-08/12/2023  09:27 -> Data e hora da criação ou Alteração. 
-<DIR> -> indica que é um Diretório(termo antigo) ou Pasta(termo atual).
-Pictures -> nome da pasta.
----
-`13/02/2025  17:51               610 p1.por`
-    
-`OBS: note que não aparece <DIR>, isto significa que é um arquivo (termo antigo) ou Documento(Termo atual).`  
-`O documento pode ser uma foto, um vídeo, ...` 
-
-`610 -> é o tamanho do arquivo, ou seja, quanto de espaço ocupa na undiade de armazenamento em Bytes.`
+**Observações:**
+- `<DIR>` → indica que é uma pasta (diretório).
+- Quando **não aparece `<DIR>`**, significa que é um arquivo.
+- O número à esquerda é o tamanho do arquivo em **bytes**.
 
 ---
 
-  Você pode também especificar a unidade e a pasta, exemplo:
-
-  C:\Users\EtecVAV>dir d:\imagens \<enter\>
-
----
-  C:\Users\EtecVAV>CLS -> apaga a tela.
+**Exemplo especificando unidade e pasta:**
+```
+C:\Users\EtecVAV>dir d:\imagens <enter>
+```
 
 ---
-  CD -> muda a pasta atual.
 
-  exemplo:
+## Outros comandos úteis
 
-  C:\Users\EtecVAV>cd Desktop \<enter\> 
-  C:\Users\EtecVAV\Desktop>|
+### Limpar a tela:
+```
+C:\Users\EtecVAV>CLS
+```
 
-  CD ..  -> retorna um nível.
+### Mudar de pasta:
+```
+C:\Users\EtecVAV>cd Desktop <enter>
+C:\Users\EtecVAV\Desktop>|
+```
 
-  Exemplo:
+Para voltar um nível:
+```
+C:\Users\EtecVAV\Desktop>cd .. <enter>
+C:\Users\EtecVAV>|
+```
 
-  C:\Users\EtecVAV\Desktop>cd .. \<enter\> 
-  C:\Users\EtecVAV\>|
+### Criar pasta:
+```
+C:\Users\EtecVAV>mkdir teste <enter>
+```
+Cria uma pasta chamada **teste**.
+
+**Com espaço no nome:**
+```
+C:\Users\EtecVAV>mkdir "Arquivos antigos" <enter>
+```
+Sempre coloque o nome entre aspas `" "` quando houver espaços.
 
 ---
-  
-MD ou MKDIR -> criar uma pasta.
-
-  exemplo:
-C:\Users\EtecVAV\>mkdir teste \<enter\>
-
-Cria um pasta chamda "teste"
-
-  C:\Users\EtecVAV\>mkdir "Arquivos antigos" <enter>
-
-Para criar pastas que contenham espaço, deve colocar entre "".
-
-  
-
-
-
-  
-
-
-  
