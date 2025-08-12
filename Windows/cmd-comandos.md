@@ -32,7 +32,7 @@ Será exibido as informações sobre este comando.
 DIR -> exibe os aquivos e pastas gravados
 
 Exemplos:
-\*
+```
 C:\Users\EtecVAV>DIR <enter>
  O volume na unidade C não tem nome.
  O Número de Série do Volume é 9AB1-6ED5
@@ -58,7 +58,7 @@ C:\Users\EtecVAV>DIR <enter>
 30/01/2024  11:25    <DIR>          Videos
                1 arquivo(s)            610 bytes
               14 pasta(s)   116.717.400.064 bytes disponíveis
-*/
+```
 Onde:
 
 C:\Users\EtecVAV>DIR <enter>
