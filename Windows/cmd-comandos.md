@@ -13,7 +13,7 @@ Onde:
 C: -> repesenta a undiade de armazenamento que está sendo usada, no caso o HD ou SSD.
 \Users -> é o local onde ficam as pastas de cada usuário cadastrado no Windows.
 \EtecVAV -> é a pasta do usuário logado.
-> -> separador
+\> -> separador
 | -> cursor intermitente. Indica que está aguardandon comando.
 
 ---
