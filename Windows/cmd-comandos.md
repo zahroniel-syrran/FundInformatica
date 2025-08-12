@@ -11,20 +11,20 @@ C:\Users\EtecVAV>|
 Onde: 
   
 C: -> repesenta a undiade de armazenamento que está sendo usada, no caso o HD ou SSD.
-\Users -> é o local onde ficam as pastas de cada usuário cadastrado no Windows.
-\EtecVAV -> é a pasta do usuário logado.
+\\Users -> é o local onde ficam as pastas de cada usuário cadastrado no Windows.
+\\EtecVAV -> é a pasta do usuário logado.
 \> -> separador
-| -> cursor intermitente. Indica que está aguardandon comando.
+\| -> cursor intermitente. Indica que está aguardandon comando.
 
 ---
 Para obter informações sobre os comandos, digite:
 
 C:\Users\EtecVAV\>help <enter>
-<enter> -> significa que você deve pressionar RETURN ou ENTER para enviar o comando.
+\<enter\> -> significa que você deve pressionar RETURN ou ENTER para enviar o comando.
 
 ou um comando especifico:
 
-C:\Users\EtecVAV\>help dir <enter>
+C:\Users\EtecVAV\>help dir \<enter\>
 Será exibido as informações sobre este comando.
 
 --
@@ -63,7 +63,7 @@ Onde:
 
 C:\Users\EtecVAV>DIR <enter>
   
-  <enter> -> significa que você deve pressionar RETURN ou ENTER para enviar o comando.
+  \<enter\> -> significa que você deve pressionar RETURN ou ENTER para enviar o comando.
   o DIR pode ser em minusculo, pois o Windows não é case sensitive (não distingue maiusculo de minusculo.
 ---
 08/12/2023  09:27    <DIR>          Pictures
