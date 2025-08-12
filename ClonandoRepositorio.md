@@ -22,9 +22,9 @@ C:\Users\EtecVAV\Downloads\projetoC>git commit -m "Escreva o que foi atualizado 
 C:\Users\EtecVAV\Downloads\projetoC>git push -u origin main
 
 
-Outro comandos git:
+# Outro comandos git:
 
-para saber as versões
+Para saber as versões
 
 git log
 
