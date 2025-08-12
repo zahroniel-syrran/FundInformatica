@@ -12,9 +12,12 @@ Onde:
   
 C: -> repesenta a undiade de armazenamento que está sendo usada, no caso o HD ou SSD.
 
- `\Users -> é o local onde ficam as pastas de cada usuário cadastrado no Windows.` 
- `\EtecVAV -> é a pasta do usuário logado.` 
- `> -> separador` 
+ `\Users -> é o local onde ficam as pastas de cada usuário cadastrado no Windows.`
+ 
+ `\EtecVAV -> é a pasta do usuário logado.`
+ 
+ `> -> separador`
+ 
  `| -> cursor intermitente. Indica que está aguardandon comando.` 
 
 
@@ -65,14 +68,14 @@ Onde:
 
 C:\Users\EtecVAV>DIR \<enter\>
   
-  `<enter> -> significa que você deve pressionar RETURN ou ENTER para enviar o comando.` 
-  `o DIR pode ser em minusculo, pois o Windows não é case sensitive (não distingue maiusculo de minusculo.`
----
-`08/12/2023  09:27    <DIR>          Pictures`
+\<enter\> -\> significa que você deve pressionar RETURN ou ENTER para enviar o comando.
 
-  `08/12/2023  09:27 -> Data e hora da criação ou Alteração.` 
-  `<DIR> -> indica que é um Diretório(termo antigo) ou Pasta(termo atual). `
-  Pictures -> nome da pasta.
+o DIR pode ser em minusculo, pois o Windows não é case sensitive (não distingue maiusculo de minusculo.
+---
+08/12/2023  09:27    \<DIR\>          Pictures
+08/12/2023  09:27 -> Data e hora da criação ou Alteração. 
+<DIR> -> indica que é um Diretório(termo antigo) ou Pasta(termo atual).
+Pictures -> nome da pasta.
 ---
 `13/02/2025  17:51               610 p1.por`
     
