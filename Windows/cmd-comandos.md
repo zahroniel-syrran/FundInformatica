@@ -22,7 +22,7 @@ C: -> repesenta a undiade de armazenamento que está sendo usada, no caso o HD o
 Para obter informações sobre os comandos, digite:
 
 C:\Users\EtecVAV\>help <enter> 
-```<enter> -> significa que você deve pressionar RETURN ou ENTER para enviar o comando.```
+`<enter> -> significa que você deve pressionar RETURN ou ENTER para enviar o comando.`
 
 ou um comando especifico:
 
@@ -63,7 +63,7 @@ C:\Users\EtecVAV>DIR <enter>
 ```
 Onde:
 
-C:\Users\EtecVAV>DIR <enter>
+C:\Users\EtecVAV>DIR \<enter\>
   
   `<enter> -> significa que você deve pressionar RETURN ou ENTER para enviar o comando.` 
   `o DIR pode ser em minusculo, pois o Windows não é case sensitive (não distingue maiusculo de minusculo.`
